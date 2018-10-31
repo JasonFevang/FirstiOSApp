@@ -44,6 +44,11 @@
                                         </stackView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="j3q-pe-Oi4" id="E18-y0-G87"/>
+                                    <outlet property="photoImageView" destination="yQm-gB-wud" id="VTl-Ti-Ip1"/>
+                                    <outlet property="ratingControl" destination="FV6-ch-ar5" id="8Ox-0A-u72"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
